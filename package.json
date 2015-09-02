@@ -1,0 +1,29 @@
+{
+	"name": "chat",
+	"version": "1.0.0",
+	"description": "a chat system",
+	"author": "liaozhongwu <liaozhongwu95@163.com>",
+	"homepage": "http://liaozhongwu.cn",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/liaozhongwu95/chat.git"
+	},
+	"bugs": {
+		"url": "https://github.com/liaozhongwu95/chat.git/issues",
+		"email": "liaozhongwu95@163.com"
+	},
+	"lisence": "mit",
+	"main": "app.js",
+	"dependencies": {
+		"express": "^4.13.3",
+		"socket.io": "^1.3.6",
+		"express-session": "^1.11.3",
+		"express-socket.io-session": "^1.3.1",
+		"jade": "^1.11.0",
+		"formidable": "^1.0.17",
+		"body-parser": "^1.13.3",
+		"node-plus-string": "^1.0.1",
+		"mysql": "^2.8.0",
+		"q": "^1.4.1"
+	}
+}

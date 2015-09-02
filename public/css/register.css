@@ -1,0 +1,10 @@
+.register-box {
+	display: inline-block;
+	vertical-align: middle;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 10px;
+	background: #3de;
+	border-radius: 10px;
+}

@@ -1,0 +1,30 @@
+doctype html
+html
+	head
+		title 会话
+		meta(name="author", content="liaozhongwu 廖仲武")
+		meta(name="description", content="a chat system 一个聊天网站")
+		meta(name="keywords", content="node socketio chat 聊天")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=0")
+		meta(charset="utf-8")
+		link(rel="stylesheet", type="style/css", href="css/lzw.css")
+		link(rel="stylesheet", type="style/css", href="css/login.css")
+		script(data-main="js/login", src="js/lib/require.js")
+	body
+		form(class="login-box", action="/login", method="post")
+			div(class="form-group")
+				h2(class="text-center") 请登入您的账号
+			div(class="form-group")
+				div(class="form-control")
+					input(type="text", class="input J-username", name="username" placeholder="用户名")
+			div(class="form-group")
+				div(class="form-control")
+					input(type="password", class="input J-password", name="password" placeholder="密码")
+			div(class="form-group")
+				div(class="form-control")
+					input(type="submit", class="btn btn-primary", name="submit" value="登录")
+			div(class="form-group")
+				div(class="form-control text-center")
+					a(href="/register") 没有账号？点此注册
+		span(class="vertical-middle-helper")
+

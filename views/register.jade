@@ -1,0 +1,36 @@
+doctype html
+html
+	head
+		title 会话
+		meta(name="author", content="liaozhongwu 廖仲武")
+		meta(name="description", content="a chat system 一个聊天网站")
+		meta(name="keywords", content="node socketio chat 聊天")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, user-scalable=0")
+		meta(charset="utf-8")
+		link(rel="stylesheet", type="style/css", href="css/lzw.css")
+		link(rel="stylesheet", type="style/css", href="css/register.css")
+		script(data-main="js/register", src="js/lib/require.js")
+	body
+		form(class="register-box", action="/register", method="post")
+			div(class="form-group")
+				h2(class="text-center") 请注册您的账号
+			div(class="form-group")
+				div(class="form-control")
+					input(type="text", class="input J-username", name="username" placeholder="用户名")
+			div(class="form-group")
+				div(class="form-control")
+					input(type="text", class="input J-name", name="name" placeholder="昵称")
+			div(class="form-group")
+				div(class="form-control")
+					input(type="password", class="input J-password", name="password" placeholder="密码")
+			div(class="form-group")
+				div(class="form-control")
+					input(type="password", class="input J-repassword", name="repassword" placeholder="重复密码")
+			div(class="form-group")
+				div(class="form-control")
+					input(type="submit", class="btn btn-primary J-register", name="submit" value="注册")
+			div(class="form-group")
+				div(class="form-control text-center")
+					a(href="/login") 已有账号？点此登录
+		div(class="vertical-middle-helper")
+
